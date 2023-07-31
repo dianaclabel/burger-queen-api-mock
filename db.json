@@ -133,6 +133,13 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "mesero@example.com",
+      "password": "$2a$10$7chRJWssNrZvXNbMMMdMEel6YJVG0NMyz8a/hI1MFIt4wKabVAXDW",
+      "role": "Mesero/a",
+      "name": "Messi",
+      "id": 3
     }
   ]
 }
