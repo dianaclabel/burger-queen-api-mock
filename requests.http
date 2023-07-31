@@ -8,11 +8,33 @@ content-type: application/json
 
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDgxNTc0NywiZXhwIjoxNjkwODE5MzQ3LCJzdWIiOiIyIn0.xNPUwIjnfXNrqj64dPfs4T9PIXbN8yCMuPxb1AI7UAM
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDgxOTAwNCwiZXhwIjoxNjkwODIyNjA0LCJzdWIiOiIyIn0.kZg1VOeKD8gRCT6k_ZNPvQTl1JsghCmAEFoYiPEwKKY
+{
+    "email": "mesero@example.com",
+    "password": "123456",
+    "role": "Mesero/a",
+    "name": "Messi"
+}
+
+# Crear producto
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDc4MDkzOSwiZXhwIjoxNjkwNzg0NTM5LCJzdWIiOiIyIn0.sUijOvg7vypiz-i0zPwm6J_CGh923SFrS9XrV0H2GUU
+
+# {
+#     "name": "Agua 500ml",
+#     "price": 800,
+#     "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+#     "type": "Desayuno"
+# }
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDgxNjk1OCwiZXhwIjoxNjkwODIwNTU4LCJzdWIiOiIyIn0.hn8qtjIhYcA4z_zQG05VgJbReAzjf8LrNwP32akj350
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
