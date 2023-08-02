@@ -21,20 +21,20 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 }
 
 # Crear producto
-POST http://localhost:8080/products HTTP/1.1
-content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk0MzEyMiwiZXhwIjoxNjkwOTQ2NzIyLCJzdWIiOiIyIn0.3j_P4z-40EXgrHfgoCQEw0fTGY8DwJhX_sJHEm0BCg0
+# POST http://localhost:8080/products HTTP/1.1
+# content-type: application/json
+# authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk0OTc0NSwiZXhwIjoxNjkwOTUzMzQ1LCJzdWIiOiIyIn0.UANeArkxfVemp86ZWw2W4dgBhCDcgeN3uvdf5pXkaFw
 
 # {
-#     "name": "Agua 500ml",
-#     "price": 800,
-#     "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+#     "name": "cafe con leche",
+#     "price": 8.00,
+#     "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-leche.jpeg?raw=true",
 #     "type": "Desayuno"
 # }
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk0MzM1MCwiZXhwIjoxNjkwOTQ2OTUwLCJzdWIiOiIyIn0.GftNC9Nxn2GzaCppdDWNH-9gh8NrPGex5wP_138X5Ds
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk0OTQ4MywiZXhwIjoxNjkwOTUzMDgzLCJzdWIiOiIyIn0.zfA7dxb8atD28jyXbaGWtzMNFFM7O4-dWuN56rMUYBE
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json

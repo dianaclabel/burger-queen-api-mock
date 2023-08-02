@@ -99,26 +99,66 @@
     {
       "id": 1,
       "name": "Sandwich de jamón y queso",
-      "price": 10.0,
+      "price": 10,
       "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/Sandwich-jamon-queso.jpeg?raw=true",
       "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "dateEntry": "2023-08-01 15:14:10"
     },
     {
       "id": 2,
       "name": "Café americano",
-      "price": 5.0,
+      "price": 5,
       "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-americano.jpg?raw=true",
       "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "dateEntry": "2023-08-01 15:14:10"
     },
     {
       "id": 3,
       "name": "Agua 500ml",
-      "price": 5.0,
+      "price": 5,
       "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/agua.jpeg?raw=true",
       "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
+      "dateEntry": "2023-08-01 15:14:10"
+    },
+    {
+      "id": 4,
+      "name": "cafe con leche",
+      "price": 8,
+      "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-leche.jpeg?raw=true",
+      "type": "Desayuno",
+      "dateEntry": "2023-08-01 15:14:10"
+    },
+    {
+      "id": 5,
+      "name": "Hamburguesa simple",
+      "price": 10,
+      "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/hamburguesaSimple.jpeg?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2023-08-01 15:14:10"
+    },
+    {
+      "id": 6,
+      "name": "Hamburguesa doble",
+      "price": 15,
+      "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/hamburguesaDoble.jpeg?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2023-08-01 15:14:10"
+    },
+    {
+      "id": 7,
+      "name": "Papas fritas",
+      "price": 15,
+      "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/papas-fritas.jpeg?raw=true",
+      "type": "Almuerzo",
+      "dateEntry": "2023-08-01 15:14:10"
+    },
+    {
+      "id": 6,
+      "name": "Jugo de naranja",
+      "price": 10,
+      "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/jugo.jpeg?raw=true",
+      "type": "Desayuno",
+      "dateEntry": "2023-08-01 15:14:10"
     }
   ],
   "users": [
