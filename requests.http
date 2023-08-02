@@ -8,7 +8,7 @@ content-type: application/json
 
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDgxNTc0NywiZXhwIjoxNjkwODE5MzQ3LCJzdWIiOiIyIn0.xNPUwIjnfXNrqj64dPfs4T9PIXbN8yCMuPxb1AI7UAM
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk0MzEyMiwiZXhwIjoxNjkwOTQ2NzIyLCJzdWIiOiIyIn0.3j_P4z-40EXgrHfgoCQEw0fTGY8DwJhX_sJHEm0BCg0
 
 POST http://localhost:8080/users HTTP/1.1
 content-type: application/json
@@ -23,7 +23,7 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 # Crear producto
 POST http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDc4MDkzOSwiZXhwIjoxNjkwNzg0NTM5LCJzdWIiOiIyIn0.sUijOvg7vypiz-i0zPwm6J_CGh923SFrS9XrV0H2GUU
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk0MzEyMiwiZXhwIjoxNjkwOTQ2NzIyLCJzdWIiOiIyIn0.3j_P4z-40EXgrHfgoCQEw0fTGY8DwJhX_sJHEm0BCg0
 
 # {
 #     "name": "Agua 500ml",
@@ -34,7 +34,7 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDgxNjk1OCwiZXhwIjoxNjkwODIwNTU4LCJzdWIiOiIyIn0.hn8qtjIhYcA4z_zQG05VgJbReAzjf8LrNwP32akj350
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk0MzM1MCwiZXhwIjoxNjkwOTQ2OTUwLCJzdWIiOiIyIn0.GftNC9Nxn2GzaCppdDWNH-9gh8NrPGex5wP_138X5Ds
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
