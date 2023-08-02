@@ -34,7 +34,12 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk0OTQ4MywiZXhwIjoxNjkwOTUzMDgzLCJzdWIiOiIyIn0.zfA7dxb8atD28jyXbaGWtzMNFFM7O4-dWuN56rMUYBE
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk2MDQ3NywiZXhwIjoxNjkwOTY0MDc3LCJzdWIiOiIyIn0.xWgzioj7vAELexwm3FVlyP_WDrArZ0Bzo76RznmL2Mc
+
+# Petición a productos con filtro
+GET http://localhost:8080/products?type=Desayuno HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk2MDQ3NywiZXhwIjoxNjkwOTY0MDc3LCJzdWIiOiIyIn0.xWgzioj7vAELexwm3FVlyP_WDrArZ0Bzo76RznmL2Mc
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
