@@ -136,48 +136,6 @@
       "status": "Pendiente",
       "dateEntry": "2023-08-07T00:58:47.422Z",
       "id": 4
-    },
-    {
-      "userId": 3,
-      "client": "Sammy Reyes",
-      "products": [
-        {
-          "qty": 1,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 10,
-            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/Sandwich-jamon-queso.jpeg?raw=true",
-            "type": "Desayuno",
-            "dateEntry": "2023-08-01 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 6,
-            "name": "Hamburguesa doble",
-            "price": 15,
-            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/hamburguesaDoble.jpeg?raw=true",
-            "type": "Almuerzo",
-            "dateEntry": "2023-08-01 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 8,
-            "name": "Jugo de naranja",
-            "price": 10,
-            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/jugo.jpeg?raw=true",
-            "type": "Desayuno",
-            "dateEntry": "2023-08-01 15:14:10"
-          }
-        }
-      ],
-      "status": "Pendiente",
-      "dateEntry": "2023-08-07T03:20:24.749Z",
-      "id": 5
     }
   ],
   "products": [
