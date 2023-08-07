@@ -2,50 +2,50 @@
   "orders": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 3,
       "client": "Jude Milhon",
       "products": [
         {
           "qty": 1,
           "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+            "id": 2,
+            "name": "Café americano",
+            "price": 5,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-americano.jpg?raw=true",
             "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
+            "dateEntry": "2023-08-01 15:14:10"
           }
         },
         {
           "qty": 1,
           "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "id": 1,
+            "name": "Sandwich de jamón y queso",
+            "price": 10,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/Sandwich-jamon-queso.jpeg?raw=true",
             "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
+            "dateEntry": "2023-08-01 15:14:10"
           }
         }
       ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
+      "status": "Entregado",
+      "dateEntry": "2022-03-05 15:00",
       "dateProcessed": "2022-03-05 16:00"
     },
     {
       "id": 2,
-      "userId": 2,
+      "userId": 3,
       "client": "Katie Bouman",
       "products": [
         {
           "qty": 2,
           "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "id": 4,
+            "name": "cafe con leche",
+            "price": 8,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-leche.jpeg?raw=true",
             "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
+            "dateEntry": "2023-08-01 15:14:10"
           }
         },
         {
@@ -53,46 +53,131 @@
           "product": {
             "id": 3,
             "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+            "price": 5,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/agua.jpeg?raw=true",
             "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
+            "dateEntry": "2023-08-01 15:14:10"
           }
         }
       ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
+      "status": "Entregado",
+      "dateEntry": "2022-03-05 15:00",
       "dateProcessed": "2022-03-05 16:00"
     },
     {
+      "id": 3,
+      "userId": 3,
       "client": "Harry Potter",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 5,
+            "name": "Hamburguesa simple",
+            "price": 10,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/hamburguesaSimple.jpeg?raw=true",
+            "type": "Almuerzo",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 7,
+            "name": "Papas fritas",
+            "price": 15,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/papas-fritas.jpeg?raw=true",
+            "type": "Almuerzo",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        }
+      ],
+      "status": "Pendiente",
+      "dateEntry": "2022-03-05 15:00"
+    },
+    {
+      "userId": 3,
+      "client": "Pepe Flores",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 5,
+            "name": "Hamburguesa simple",
+            "price": 10,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/hamburguesaSimple.jpeg?raw=true",
+            "type": "Almuerzo",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 8,
+            "name": "Jugo de naranja",
+            "price": 10,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/jugo.jpeg?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 4,
+            "name": "cafe con leche",
+            "price": 8,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-leche.jpeg?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        }
+      ],
+      "status": "Pendiente",
+      "dateEntry": "2023-08-07T00:58:47.422Z",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "client": "Sammy Reyes",
       "products": [
         {
           "qty": 1,
           "product": {
             "id": 1,
             "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+            "price": 10,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/Sandwich-jamon-queso.jpeg?raw=true",
             "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
+            "dateEntry": "2023-08-01 15:14:10"
           }
         },
         {
           "qty": 1,
           "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+            "id": 6,
+            "name": "Hamburguesa doble",
+            "price": 15,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/hamburguesaDoble.jpeg?raw=true",
+            "type": "Almuerzo",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 8,
+            "name": "Jugo de naranja",
+            "price": 10,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/jugo.jpeg?raw=true",
             "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
+            "dateEntry": "2023-08-01 15:14:10"
           }
         }
       ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00",
-      "id": 3
+      "status": "Pendiente",
+      "dateEntry": "2023-08-07T03:20:24.749Z",
+      "id": 5
     }
   ],
   "products": [
@@ -122,7 +207,7 @@
     },
     {
       "id": 4,
-      "name": "cafe con leche",
+      "name": "Cafe con leche",
       "price": 8,
       "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-leche.jpeg?raw=true",
       "type": "Desayuno",
