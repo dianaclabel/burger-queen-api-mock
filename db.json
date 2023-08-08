@@ -22,7 +22,7 @@
             "id": 1,
             "name": "Sandwich de jamón y queso",
             "price": 10,
-            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/Sandwich-jamon-queso.jpeg?raw=true",
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/Sandwich-jamon-y-queso.jpeg?raw=true",
             "type": "Desayuno",
             "dateEntry": "2023-08-01 15:14:10"
           }
@@ -143,7 +143,7 @@
       "id": 1,
       "name": "Sandwich de jamón y queso",
       "price": 10,
-      "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/Sandwich-jamon-queso.jpeg?raw=true",
+      "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/Sandwich-jamon-y-queso.jpeg?raw=true",
       "type": "Desayuno",
       "dateEntry": "2023-08-01 15:14:10"
     },
