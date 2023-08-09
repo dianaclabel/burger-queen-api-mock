@@ -136,6 +136,68 @@
       "status": "Pendiente",
       "dateEntry": "2023-08-07T00:58:47.422Z",
       "id": 4
+    },
+    {
+      "userId": 3,
+      "client": "Valeria Hurtado",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 7,
+            "name": "Papas fritas",
+            "price": 15,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/papas-fritas.jpeg?raw=true",
+            "type": "Almuerzo",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 8,
+            "name": "Jugo de naranja",
+            "price": 10,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/jugo.jpeg?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        }
+      ],
+      "status": "Pendiente",
+      "dateEntry": "2023-08-09T13:57:18.794Z",
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "client": "Rosa Merino",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 5,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-americano.jpg?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        },
+        {
+          "qty": 2,
+          "product": {
+            "id": 4,
+            "name": "Cafe con leche",
+            "price": 8,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-leche.jpeg?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        }
+      ],
+      "status": "Pendiente",
+      "dateEntry": "2023-08-09T14:01:59.111Z",
+      "id": 6
     }
   ],
   "products": [
@@ -232,6 +294,13 @@
       "role": "Mesero/a",
       "name": "Maria",
       "id": 4
+    },
+    {
+      "email": "mariobros@gmail.com",
+      "password": "$2a$10$VbYRgMQAzgCtLieb6pRwCu1L2Po.nc0OHkIjbZ7.ylyFzeBzbGzMO",
+      "name": "Mario Bros",
+      "role": "Jefe de cocina",
+      "id": 5
     }
   ]
 }
