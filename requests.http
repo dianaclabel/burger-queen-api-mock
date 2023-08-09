@@ -6,6 +6,14 @@ content-type: application/json
     "password": "123456"
 }
 
+POST http://localhost:8080/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "mesero@example.com",
+    "password": "123456"
+}
+
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk0MzEyMiwiZXhwIjoxNjkwOTQ2NzIyLCJzdWIiOiIyIn0.3j_P4z-40EXgrHfgoCQEw0fTGY8DwJhX_sJHEm0BCg0
@@ -13,11 +21,12 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 POST http://localhost:8080/users HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDgxOTAwNCwiZXhwIjoxNjkwODIyNjA0LCJzdWIiOiIyIn0.kZg1VOeKD8gRCT6k_ZNPvQTl1JsghCmAEFoYiPEwKKY
+
 {
-    "email": "mesero@example.com",
+    "email": "maria@example.com",
     "password": "123456",
     "role": "Mesero/a",
-    "name": "Messi"
+    "name": "Maria"
 }
 
 # Crear producto
@@ -36,7 +45,7 @@ GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk2MDQ3NywiZXhwIjoxNjkwOTY0MDc3LCJzdWIiOiIyIn0.xWgzioj7vAELexwm3FVlyP_WDrArZ0Bzo76RznmL2Mc
 
-# Petición a productos con filtro
+# Petición a productos con filtro por type
 GET http://localhost:8080/products?type=Desayuno HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY5MDk2MDQ3NywiZXhwIjoxNjkwOTY0MDc3LCJzdWIiOiIyIn0.xWgzioj7vAELexwm3FVlyP_WDrArZ0Bzo76RznmL2Mc
@@ -44,6 +53,12 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+
+# Listar pedidos propios de un mesero
+GET http://localhost:8080/ordersHTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1lc2Vyb0BleGFtcGxlLmNvbSIsImlhdCI6MTY5MTU0NDQ4NCwiZXhwIjoxNjkxNTQ4MDg0LCJzdWIiOiIzIn0.yjfNd1u3XVgHMgMCzf7EoSsGbAu9axNxWURqPcBizJo
+
 
 PATCH http://localhost:8080/orders/2 HTTP/1.1
 content-type: application/json

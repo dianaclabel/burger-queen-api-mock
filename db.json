@@ -225,6 +225,13 @@
       "role": "Mesero/a",
       "name": "Messi",
       "id": 3
+    },
+    {
+      "email": "maria@example.com",
+      "password": "$2a$10$QWyKpgFInGoTNNgJOnZgvusJYBPGH7bXZTs9dLsVXTLA7PCY3VFu.",
+      "role": "Mesero/a",
+      "name": "Maria",
+      "id": 4
     }
   ]
 }
