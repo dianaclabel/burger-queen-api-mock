@@ -29,8 +29,8 @@
         }
       ],
       "status": "Entregado",
-      "dateEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
+      "dateEntry": "2023-05-07T00:43:47.422Z",
+      "dateProcessed": "2023-05-07T00:59:47.422Z"
     },
     {
       "id": 2,
@@ -61,8 +61,8 @@
         }
       ],
       "status": "Entregado",
-      "dateEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
+      "dateEntry": "2023-07-07T00:43:47.422Z",
+      "dateProcessed": "2023-07-07T00:59:47.422Z"
     },
     {
       "id": 3,
@@ -93,7 +93,7 @@
         }
       ],
       "status": "Pendiente",
-      "dateEntry": "2022-03-05 15:00"
+      "dateEntry": "2023-08-05T00:36:47.422Z"
     },
     {
       "userId": 3,
@@ -181,7 +181,7 @@
             "price": 5,
             "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-americano.jpg?raw=true",
             "type": "Desayuno",
-            "dateEntry": "2023-08-01 15:14:10"
+            "dateEntry": "2023-08-07T00:43:47.422Z"
           }
         },
         {
