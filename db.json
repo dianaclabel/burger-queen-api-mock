@@ -133,8 +133,9 @@
           }
         }
       ],
-      "status": "Pendiente",
-      "dateEntry": "2023-08-07T00:58:47.422Z",
+      "status": "Preparado",
+      "dateEntry": "2023-08-07T00:43:47.422Z",
+      "dateProcessed": "2023-08-07T00:59:47.422Z",
       "id": 4
     },
     {
@@ -198,6 +199,49 @@
       "status": "Pendiente",
       "dateEntry": "2023-08-09T14:01:59.111Z",
       "id": 6
+    },
+    {
+      "userId": 3,
+      "client": "maria",
+      "products": [
+        {
+          "qty": 1,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 5,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-americano.jpg?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 1,
+            "name": "Sandwich de jamón y queso",
+            "price": 10,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/Sandwich-jamon-y-queso.jpeg?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "product": {
+            "id": 4,
+            "name": "Cafe con leche",
+            "price": 8,
+            "image": "https://github.com/dianaclabel/burger-queen-api-mock/blob/main/resources/images/cafe-leche.jpeg?raw=true",
+            "type": "Desayuno",
+            "dateEntry": "2023-08-01 15:14:10"
+          }
+        }
+      ],
+      "status": "Preparado",
+      "dateEntry": "2023-08-09T14:20:01.848Z",
+      "dateProcessed": "2023-08-09T14:48:01.848Z",
+      "id": 7
     }
   ],
   "products": [
